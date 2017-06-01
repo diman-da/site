@@ -3,6 +3,12 @@ session_start();
 error_reporting(0); 
 include 'noc.php';
 
+<h1>Some text</h1>
+
+<h1>Some text</h1>
+<h1>Some text</h1>
+<h1>Some text</h1>
+
 if ($_POST) {
 	$log_v = trim($_POST['log_v']);
 	$email = trim($_POST['log']);
