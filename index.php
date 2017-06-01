@@ -8,6 +8,11 @@ include 'noc.php';
 <h1>Some text</h1>
 <h1>Some text</h1>
 <h1>Some text</h1>
+<h1>Some text</h1>
+
+<h1>Some text</h1>
+<h1>Some text</h1>
+<h1>Some text</h1>
 
 if ($_POST) {
 	$log_v = trim($_POST['log_v']);
@@ -49,7 +54,15 @@ if ($_POST) {
 			$errortext_pas_r= "<font color='red'>Пароль и его подтверждение не совпадают!</font>";
 		}
 	}
-	
+
+<h1>Some text</h1>
+<h1>Some text</h1>
+<h1>Some text</h1>
+<h1>Some text</h1>
+<h1>Some text</h1>
+<h1>Some text</h1>	
+
+
 	if (!preg_match("#^[-+0-9()\s]+$#",$phone))	{
 		$error = true;
 		$errortext_phone = "<font color='red'>Неправильно заполнено поле телефон </font>";
